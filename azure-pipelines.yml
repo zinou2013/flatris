@@ -9,7 +9,7 @@ trigger:
 pool:
   name: Default
   demands:
-    - agent.name -equal vmagentdevops
+    - agent.name -equals vmagentdevops
 
 steps:
 - task: NodeTool@0
